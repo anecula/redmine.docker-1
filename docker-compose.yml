@@ -3,7 +3,7 @@ version: '2.0'
 services:
 
   redmine:
-    image: rm:latest
+    image: eaudeweb/redmine
     restart: always
     volumes:
       - redmine-files:/usr/src/redmine/files
